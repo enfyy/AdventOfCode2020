@@ -1,4 +1,4 @@
-input = File.open("day1_input.txt")
+input = File.open("inputs/day1_input.txt")
 @nums = []
 input.each_with_index do |num, i|
     @nums[i] = num.chomp.to_i
@@ -20,5 +20,5 @@ def part2()
     end
 end
 
-#part1
-#part2
+part1
+part2
